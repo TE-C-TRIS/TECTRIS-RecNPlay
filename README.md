@@ -33,6 +33,6 @@ Publique `frontend/dist` em um host estático e execute o backend como serviço 
 
 - **Desafio de C:** resposta digitada, pontuação por acerto e penalidade por erro ou tempo esgotado.
 - **Modo Easy:** perguntas de conhecimentos gerais com quatro alternativas.
-- **Duelo local:** dois tabuleiros no mesmo dispositivo, teclas separadas e controles de toque. É uma extensão web, pois o código C original não implementava o modo de dois jogadores.
+- **Duelo local:** dois tabuleiros no mesmo dispositivo, perguntas de programação com alternativas e controles de toque. O primeiro jogador a acertar vence; respostas erradas aplicam a penalidade do jogo. Player 1 responde pelas teclas 1–4 e Player 2 pelas teclas 7–0. É uma extensão web, pois o código C original não implementava o modo de dois jogadores.
 
 No modo solo, use as setas para mover/rotacionar, espaço para soltar e P ou Esc para pausar. Em celular, os botões ficam abaixo do tabuleiro. O histórico e as estatísticas dependem da API; a partida continua jogável mesmo sem conexão com ela.
